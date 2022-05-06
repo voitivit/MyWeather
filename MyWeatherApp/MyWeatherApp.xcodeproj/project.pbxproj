@@ -13,6 +13,7 @@
 		F7E14BD3282524E500028108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E14BD1282524E500028108 /* Main.storyboard */; };
 		F7E14BD5282524E500028108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E14BD4282524E500028108 /* Assets.xcassets */; };
 		F7E14BD8282524E500028108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E14BD6282524E500028108 /* LaunchScreen.storyboard */; };
+		F7E14BE1282529B600028108 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F7E14BE0282529B600028108 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E14BE1282529B600028108 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = MyWeatherApp;
+			packageProductDependencies = (
+				F7E14BE0282529B600028108 /* Alamofire */,
+			);
 			productName = MyWeatherApp;
 			productReference = F7E14BC8282524E500028108 /* MyWeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = F7E14BBF282524E500028108;
+			packageReferences = (
+				F7E14BDF282529B600028108 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F7E14BC9282524E500028108 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7E14BDF282529B600028108 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7E14BE0282529B600028108 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7E14BDF282529B600028108 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7E14BC0282524E500028108 /* Project object */;
 }
