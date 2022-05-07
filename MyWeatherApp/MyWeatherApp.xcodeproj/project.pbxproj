@@ -16,6 +16,8 @@
 		F7E14C1828254F2600028108 /* WeatherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E14C1728254F2600028108 /* WeatherCollectionViewController.swift */; };
 		F7E14C1B282551E200028108 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E14C1A282551E200028108 /* WeatherCollectionViewCell.swift */; };
 		F7E14C1D2825583800028108 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E14C1C2825583800028108 /* Model.swift */; };
+		F7E14C1F2825590800028108 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E14C1E2825590800028108 /* Service.swift */; };
+		F7E14C2328255C7100028108 /* ViewJSONExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E14C2228255C7100028108 /* ViewJSONExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		F7E14C1728254F2600028108 /* WeatherCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewController.swift; sourceTree = "<group>"; };
 		F7E14C1A282551E200028108 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
 		F7E14C1C2825583800028108 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F7E14C1E2825590800028108 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F7E14C2228255C7100028108 /* ViewJSONExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJSONExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 			children = (
 				F7E14BCB282524E500028108 /* AppDelegate.swift */,
 				F7E14BCD282524E500028108 /* SceneDelegate.swift */,
-				F7E14C1C2825583800028108 /* Model.swift */,
+				F7E14C2228255C7100028108 /* ViewJSONExample.swift */,
+				F7E14C202825590C00028108 /* Service */,
+				F7E14C212825591200028108 /* Model */,
 				F7E14C19282551B600028108 /* View */,
 				F7E14BD1282524E500028108 /* Main.storyboard */,
 				F7E14BD4282524E500028108 /* Assets.xcassets */,
@@ -81,6 +87,22 @@
 				F7E14C1A282551E200028108 /* WeatherCollectionViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F7E14C202825590C00028108 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F7E14C1E2825590800028108 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F7E14C212825591200028108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7E14C1C2825583800028108 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E14C1D2825583800028108 /* Model.swift in Sources */,
+				F7E14C2328255C7100028108 /* ViewJSONExample.swift in Sources */,
 				F7E14C1828254F2600028108 /* WeatherCollectionViewController.swift in Sources */,
 				F7E14C1B282551E200028108 /* WeatherCollectionViewCell.swift in Sources */,
 				F7E14BCC282524E500028108 /* AppDelegate.swift in Sources */,
 				F7E14BCE282524E500028108 /* SceneDelegate.swift in Sources */,
+				F7E14C1F2825590800028108 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
